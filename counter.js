@@ -1,19 +1,26 @@
+
 let countEl = document.getElementById("count-el")
+
+let saveCount = document.getElementById("save-el")
 
 let count = 0
 
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count  
 }
 
 function decrement() {
-    count = count - 1
+    count -= 1
     countEl.innerText = count  
 }
 
-let saveCount = document.getElementById("save-count")
-
 function save() {
-    saveCount.innerText = count
+    let countDash = count + " | "
+    saveCount.textContent += countDash
+}
+
+function reset() {
+    countEl.textContent = 0
+    count = 0
 }

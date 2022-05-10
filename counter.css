@@ -1,0 +1,114 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #DDEBED;
+    text-decoration: inherit;
+}
+
+body {
+    margin: 5%;
+}
+
+h1 {
+    font-size: 3em;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+    
+}
+
+.fa-bus-simple {
+    padding: 1%;
+    color: #27374b;
+}
+
+.number {
+    font-size: 5em;
+    
+
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    border: solid 5px #27374b;
+    border-radius: 15px;    
+    padding: 2%;
+}
+
+button {
+    font-size: 24px;
+    width: 230px;
+    height: 50px;
+    margin: 2%;
+
+}
+
+.fa-arrow-up{
+    background-color: #509e38;
+    color: #DDEBED;
+}
+#increment-btn {
+    color: #DDEBED;
+    background-color: #509e38;
+
+    border-radius: 20em;
+}
+
+.fa-arrow-down {
+    background-color: #ad1919;
+    color: #DDEBED;
+}
+#decrement-btn {
+    background-color: #ad1919;
+    color: #DDEBED;
+
+    border-radius: 20em;
+}
+
+.fa-bookmark {
+    background-color: #27374b;
+    color: #DDEBED
+}
+#save-btn {
+    background-color: #27374b;
+    color: #DDEBED;
+
+    border-radius: 20em;
+}
+
+.fa-arrow-rotate-left{
+    background-color: #27374b;
+    color: #DDEBED;
+}
+#reset-btn {
+    background-color: #27374b;
+    color: #DDEBED;
+
+    border-radius: 20em;
+}
+
+.btn {
+    margin-left: 30%;
+    margin-right: 30%;
+        
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+#save-el {
+    font-size: 28px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+}

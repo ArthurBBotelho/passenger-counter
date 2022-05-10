@@ -6,25 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Passenger Counter</title>
     <link rel="stylesheet" href="counter.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@800&family=Roboto:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/c983adba89.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>People entered:</h1>
+    <h1><i class="fa-solid fa-bus-simple"></i>People entered:</h1>
 
-    <h2 id="count-el">0</h2>
+    <h2 class="number" id="count-el">0</h2>
+    <div class = "btn">
+        
+        <button id="increment-btn" onclick="increment()">
+            Increment <i class="fa-solid fa-arrow-up"></i>
+        </button>
 
-    <button id="increment-btn" onclick="increment()">
-        Increment
-    </button>
+        
+        <button id="decrement-btn" onclick="decrement()">
+            Decrement <i class="fa-solid fa-arrow-down"></i>
+        </button>
+        
+        <button id="save-btn" onclick="save()">
+            Save <i class="fa-regular fa-bookmark"></i>
+        </button>
 
-    <button id="decrement-btn" onclick="decrement()">
-        Decrement
-    </button>
+        
+        <button id="reset-btn" onclick="reset()">
+            Reset Counter <i class="fa-solid fa-arrow-rotate-left"></i>
+        </button>
+    </div>
 
-    <button id="save-btn" onclick="save()">
-        Save Count
-    </button>
-    <h3 id="save-count">saved</h3>
+    <p id="save-el">Previous enteries: </p>
 
     <script src="/counter.js"></script>
 </body>
